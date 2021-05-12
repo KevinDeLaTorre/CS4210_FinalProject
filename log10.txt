@@ -1,0 +1,614 @@
+
+Seed 0: 560418	NUMBER OF TREES/ESTIMATORS TEST
+	Test 0 | Number of estimators: 20 | Accuracy: 0.717 | F1-Score: 0.585
+	Test 1 | Number of estimators: 40 | Accuracy: 0.733 | F1-Score: 0.600
+	Test 2 | Number of estimators: 60 | Accuracy: 0.717 | F1-Score: 0.564
+	Test 3 | Number of estimators: 80 | Accuracy: 0.717 | F1-Score: 0.564
+	Test 4 | Number of estimators: 100 | Accuracy: 0.717 | F1-Score: 0.564
+	Test 5 | Number of estimators: 120 | Accuracy: 0.717 | F1-Score: 0.564
+	Test 6 | Number of estimators: 140 | Accuracy: 0.733 | F1-Score: 0.579
+	Test 7 | Number of estimators: 160 | Accuracy: 0.717 | F1-Score: 0.564
+	Test 8 | Number of estimators: 180 | Accuracy: 0.733 | F1-Score: 0.579
+	Test 9 | Number of estimators: 200 | Accuracy: 0.750 | F1-Score: 0.595
+	Test 10 | Number of estimators: 220 | Accuracy: 0.717 | F1-Score: 0.564
+	Test 11 | Number of estimators: 240 | Accuracy: 0.767 | F1-Score: 0.611
+	Test 12 | Number of estimators: 260 | Accuracy: 0.767 | F1-Score: 0.611
+	Test 13 | Number of estimators: 280 | Accuracy: 0.767 | F1-Score: 0.611
+	Test 14 | Number of estimators: 300 | Accuracy: 0.767 | F1-Score: 0.611
+	Test 15 | Number of estimators: 320 | Accuracy: 0.767 | F1-Score: 0.611
+	Test 16 | Number of estimators: 340 | Accuracy: 0.767 | F1-Score: 0.611
+	Test 17 | Number of estimators: 360 | Accuracy: 0.750 | F1-Score: 0.595
+	Test 18 | Number of estimators: 380 | Accuracy: 0.750 | F1-Score: 0.595
+
+	Average accuracy: 0.740
+	Average F1-Scores: 0.588
+	Best estimators: 240 with 0.611 F1-Score
+
+	MAX FEATURES TEST
+	Test 0 | Max Feature split: 0.05 | Accuracy: 0.800 | F1-Score: 0.625
+	Test 1 | Max Feature split: 0.10 | Accuracy: 0.800 | F1-Score: 0.625
+	Test 2 | Max Feature split: 0.15 | Accuracy: 0.800 | F1-Score: 0.625
+	Test 3 | Max Feature split: 0.20 | Accuracy: 0.817 | F1-Score: 0.686
+	Test 4 | Max Feature split: 0.25 | Accuracy: 0.800 | F1-Score: 0.667
+	Test 5 | Max Feature split: 0.30 | Accuracy: 0.800 | F1-Score: 0.667
+	Test 6 | Max Feature split: 0.35 | Accuracy: 0.783 | F1-Score: 0.629
+	Test 7 | Max Feature split: 0.40 | Accuracy: 0.783 | F1-Score: 0.629
+	Test 8 | Max Feature split: 0.45 | Accuracy: 0.767 | F1-Score: 0.611
+	Test 9 | Max Feature split: 0.50 | Accuracy: 0.767 | F1-Score: 0.611
+	Test 10 | Max Feature split: 0.55 | Accuracy: 0.767 | F1-Score: 0.611
+	Test 11 | Max Feature split: 0.60 | Accuracy: 0.733 | F1-Score: 0.579
+	Test 12 | Max Feature split: 0.65 | Accuracy: 0.733 | F1-Score: 0.579
+	Test 13 | Max Feature split: 0.70 | Accuracy: 0.717 | F1-Score: 0.564
+	Test 14 | Max Feature split: 0.75 | Accuracy: 0.733 | F1-Score: 0.579
+	Test 15 | Max Feature split: 0.80 | Accuracy: 0.733 | F1-Score: 0.579
+	Test 16 | Max Feature split: 0.85 | Accuracy: 0.717 | F1-Score: 0.564
+	Test 17 | Max Feature split: 0.90 | Accuracy: 0.717 | F1-Score: 0.564
+	Test 18 | Max Feature split: 0.95 | Accuracy: 0.733 | F1-Score: 0.579
+
+	Average accuracy: 0.763
+	Average F1-Scores: 0.588
+	Best split: 0.20 with 0.686 F1-Score
+	Therefore best classifier found is: 240 estimators | 0.20 split
+              precision    recall  f1-score   support
+
+           0       0.86      0.88      0.87        42
+           1       0.71      0.67      0.69        18
+
+    accuracy                           0.82        60
+   macro avg       0.78      0.77      0.78        60
+weighted avg       0.81      0.82      0.82        60
+	Best F1-Score: 0.686
+
+Seed 1: 8974667	NUMBER OF TREES/ESTIMATORS TEST
+	Test 0 | Number of estimators: 20 | Accuracy: 0.800 | F1-Score: 0.600
+	Test 1 | Number of estimators: 40 | Accuracy: 0.867 | F1-Score: 0.733
+	Test 2 | Number of estimators: 60 | Accuracy: 0.867 | F1-Score: 0.733
+	Test 3 | Number of estimators: 80 | Accuracy: 0.867 | F1-Score: 0.733
+	Test 4 | Number of estimators: 100 | Accuracy: 0.833 | F1-Score: 0.688
+	Test 5 | Number of estimators: 120 | Accuracy: 0.883 | F1-Score: 0.774
+	Test 6 | Number of estimators: 140 | Accuracy: 0.867 | F1-Score: 0.750
+	Test 7 | Number of estimators: 160 | Accuracy: 0.867 | F1-Score: 0.750
+	Test 8 | Number of estimators: 180 | Accuracy: 0.867 | F1-Score: 0.750
+	Test 9 | Number of estimators: 200 | Accuracy: 0.867 | F1-Score: 0.750
+	Test 10 | Number of estimators: 220 | Accuracy: 0.883 | F1-Score: 0.774
+	Test 11 | Number of estimators: 240 | Accuracy: 0.867 | F1-Score: 0.750
+	Test 12 | Number of estimators: 260 | Accuracy: 0.867 | F1-Score: 0.750
+	Test 13 | Number of estimators: 280 | Accuracy: 0.867 | F1-Score: 0.750
+	Test 14 | Number of estimators: 300 | Accuracy: 0.867 | F1-Score: 0.750
+	Test 15 | Number of estimators: 320 | Accuracy: 0.867 | F1-Score: 0.750
+	Test 16 | Number of estimators: 340 | Accuracy: 0.867 | F1-Score: 0.750
+	Test 17 | Number of estimators: 360 | Accuracy: 0.867 | F1-Score: 0.750
+	Test 18 | Number of estimators: 380 | Accuracy: 0.867 | F1-Score: 0.750
+
+	Average accuracy: 0.863
+	Average F1-Scores: 0.739
+	Best estimators: 120 with 0.774 F1-Score
+
+	MAX FEATURES TEST
+	Test 0 | Max Feature split: 0.05 | Accuracy: 0.817 | F1-Score: 0.522
+	Test 1 | Max Feature split: 0.10 | Accuracy: 0.817 | F1-Score: 0.522
+	Test 2 | Max Feature split: 0.15 | Accuracy: 0.817 | F1-Score: 0.522
+	Test 3 | Max Feature split: 0.20 | Accuracy: 0.883 | F1-Score: 0.759
+	Test 4 | Max Feature split: 0.25 | Accuracy: 0.883 | F1-Score: 0.759
+	Test 5 | Max Feature split: 0.30 | Accuracy: 0.883 | F1-Score: 0.759
+	Test 6 | Max Feature split: 0.35 | Accuracy: 0.883 | F1-Score: 0.759
+	Test 7 | Max Feature split: 0.40 | Accuracy: 0.883 | F1-Score: 0.759
+	Test 8 | Max Feature split: 0.45 | Accuracy: 0.867 | F1-Score: 0.733
+	Test 9 | Max Feature split: 0.50 | Accuracy: 0.883 | F1-Score: 0.774
+	Test 10 | Max Feature split: 0.55 | Accuracy: 0.883 | F1-Score: 0.774
+	Test 11 | Max Feature split: 0.60 | Accuracy: 0.850 | F1-Score: 0.710
+	Test 12 | Max Feature split: 0.65 | Accuracy: 0.850 | F1-Score: 0.710
+	Test 13 | Max Feature split: 0.70 | Accuracy: 0.833 | F1-Score: 0.688
+	Test 14 | Max Feature split: 0.75 | Accuracy: 0.833 | F1-Score: 0.688
+	Test 15 | Max Feature split: 0.80 | Accuracy: 0.833 | F1-Score: 0.688
+	Test 16 | Max Feature split: 0.85 | Accuracy: 0.800 | F1-Score: 0.647
+	Test 17 | Max Feature split: 0.90 | Accuracy: 0.800 | F1-Score: 0.647
+	Test 18 | Max Feature split: 0.95 | Accuracy: 0.800 | F1-Score: 0.647
+
+	Average accuracy: 0.847
+	Average F1-Scores: 0.739
+	Best split: 0.50 with 0.774 F1-Score
+	Therefore best classifier found is: 120 estimators | 0.50 split
+              precision    recall  f1-score   support
+
+           0       0.98      0.87      0.92        47
+           1       0.67      0.92      0.77        13
+
+    accuracy                           0.88        60
+   macro avg       0.82      0.90      0.85        60
+weighted avg       0.91      0.88      0.89        60
+	Best F1-Score: 0.774
+
+Seed 2: 4641948	NUMBER OF TREES/ESTIMATORS TEST
+	Test 0 | Number of estimators: 20 | Accuracy: 0.817 | F1-Score: 0.645
+	Test 1 | Number of estimators: 40 | Accuracy: 0.817 | F1-Score: 0.645
+	Test 2 | Number of estimators: 60 | Accuracy: 0.833 | F1-Score: 0.688
+	Test 3 | Number of estimators: 80 | Accuracy: 0.833 | F1-Score: 0.688
+	Test 4 | Number of estimators: 100 | Accuracy: 0.833 | F1-Score: 0.688
+	Test 5 | Number of estimators: 120 | Accuracy: 0.833 | F1-Score: 0.688
+	Test 6 | Number of estimators: 140 | Accuracy: 0.833 | F1-Score: 0.688
+	Test 7 | Number of estimators: 160 | Accuracy: 0.817 | F1-Score: 0.667
+	Test 8 | Number of estimators: 180 | Accuracy: 0.833 | F1-Score: 0.688
+	Test 9 | Number of estimators: 200 | Accuracy: 0.817 | F1-Score: 0.667
+	Test 10 | Number of estimators: 220 | Accuracy: 0.833 | F1-Score: 0.688
+	Test 11 | Number of estimators: 240 | Accuracy: 0.833 | F1-Score: 0.688
+	Test 12 | Number of estimators: 260 | Accuracy: 0.833 | F1-Score: 0.688
+	Test 13 | Number of estimators: 280 | Accuracy: 0.817 | F1-Score: 0.645
+	Test 14 | Number of estimators: 300 | Accuracy: 0.800 | F1-Score: 0.625
+	Test 15 | Number of estimators: 320 | Accuracy: 0.800 | F1-Score: 0.625
+	Test 16 | Number of estimators: 340 | Accuracy: 0.817 | F1-Score: 0.667
+	Test 17 | Number of estimators: 360 | Accuracy: 0.817 | F1-Score: 0.667
+	Test 18 | Number of estimators: 380 | Accuracy: 0.800 | F1-Score: 0.625
+
+	Average accuracy: 0.822
+	Average F1-Scores: 0.667
+	Best estimators: 60 with 0.688 F1-Score
+
+	MAX FEATURES TEST
+	Test 0 | Max Feature split: 0.05 | Accuracy: 0.850 | F1-Score: 0.690
+	Test 1 | Max Feature split: 0.10 | Accuracy: 0.850 | F1-Score: 0.690
+	Test 2 | Max Feature split: 0.15 | Accuracy: 0.850 | F1-Score: 0.690
+	Test 3 | Max Feature split: 0.20 | Accuracy: 0.817 | F1-Score: 0.645
+	Test 4 | Max Feature split: 0.25 | Accuracy: 0.850 | F1-Score: 0.710
+	Test 5 | Max Feature split: 0.30 | Accuracy: 0.850 | F1-Score: 0.710
+	Test 6 | Max Feature split: 0.35 | Accuracy: 0.833 | F1-Score: 0.688
+	Test 7 | Max Feature split: 0.40 | Accuracy: 0.833 | F1-Score: 0.688
+	Test 8 | Max Feature split: 0.45 | Accuracy: 0.850 | F1-Score: 0.710
+	Test 9 | Max Feature split: 0.50 | Accuracy: 0.833 | F1-Score: 0.688
+	Test 10 | Max Feature split: 0.55 | Accuracy: 0.833 | F1-Score: 0.688
+	Test 11 | Max Feature split: 0.60 | Accuracy: 0.850 | F1-Score: 0.743
+	Test 12 | Max Feature split: 0.65 | Accuracy: 0.850 | F1-Score: 0.743
+	Test 13 | Max Feature split: 0.70 | Accuracy: 0.783 | F1-Score: 0.629
+	Test 14 | Max Feature split: 0.75 | Accuracy: 0.833 | F1-Score: 0.706
+	Test 15 | Max Feature split: 0.80 | Accuracy: 0.833 | F1-Score: 0.706
+	Test 16 | Max Feature split: 0.85 | Accuracy: 0.817 | F1-Score: 0.667
+	Test 17 | Max Feature split: 0.90 | Accuracy: 0.817 | F1-Score: 0.667
+	Test 18 | Max Feature split: 0.95 | Accuracy: 0.817 | F1-Score: 0.686
+
+	Average accuracy: 0.834
+	Average F1-Scores: 0.667
+	Best split: 0.60 with 0.743 F1-Score
+	Therefore best classifier found is: 60 estimators | 0.60 split
+              precision    recall  f1-score   support
+
+           0       0.90      0.88      0.89        43
+           1       0.72      0.76      0.74        17
+
+    accuracy                           0.85        60
+   macro avg       0.81      0.82      0.82        60
+weighted avg       0.85      0.85      0.85        60
+	Best F1-Score: 0.743
+
+Seed 3: 695430	NUMBER OF TREES/ESTIMATORS TEST
+	Test 0 | Number of estimators: 20 | Accuracy: 0.750 | F1-Score: 0.615
+	Test 1 | Number of estimators: 40 | Accuracy: 0.783 | F1-Score: 0.667
+	Test 2 | Number of estimators: 60 | Accuracy: 0.783 | F1-Score: 0.667
+	Test 3 | Number of estimators: 80 | Accuracy: 0.783 | F1-Score: 0.667
+	Test 4 | Number of estimators: 100 | Accuracy: 0.767 | F1-Score: 0.650
+	Test 5 | Number of estimators: 120 | Accuracy: 0.767 | F1-Score: 0.650
+	Test 6 | Number of estimators: 140 | Accuracy: 0.767 | F1-Score: 0.650
+	Test 7 | Number of estimators: 160 | Accuracy: 0.767 | F1-Score: 0.650
+	Test 8 | Number of estimators: 180 | Accuracy: 0.783 | F1-Score: 0.683
+	Test 9 | Number of estimators: 200 | Accuracy: 0.783 | F1-Score: 0.683
+	Test 10 | Number of estimators: 220 | Accuracy: 0.783 | F1-Score: 0.683
+	Test 11 | Number of estimators: 240 | Accuracy: 0.783 | F1-Score: 0.683
+	Test 12 | Number of estimators: 260 | Accuracy: 0.783 | F1-Score: 0.683
+	Test 13 | Number of estimators: 280 | Accuracy: 0.783 | F1-Score: 0.683
+	Test 14 | Number of estimators: 300 | Accuracy: 0.767 | F1-Score: 0.650
+	Test 15 | Number of estimators: 320 | Accuracy: 0.767 | F1-Score: 0.650
+	Test 16 | Number of estimators: 340 | Accuracy: 0.767 | F1-Score: 0.650
+	Test 17 | Number of estimators: 360 | Accuracy: 0.767 | F1-Score: 0.650
+	Test 18 | Number of estimators: 380 | Accuracy: 0.783 | F1-Score: 0.683
+
+	Average accuracy: 0.775
+	Average F1-Scores: 0.663
+	Best estimators: 180 with 0.683 F1-Score
+
+	MAX FEATURES TEST
+	Test 0 | Max Feature split: 0.05 | Accuracy: 0.767 | F1-Score: 0.588
+	Test 1 | Max Feature split: 0.10 | Accuracy: 0.767 | F1-Score: 0.588
+	Test 2 | Max Feature split: 0.15 | Accuracy: 0.767 | F1-Score: 0.588
+	Test 3 | Max Feature split: 0.20 | Accuracy: 0.817 | F1-Score: 0.718
+	Test 4 | Max Feature split: 0.25 | Accuracy: 0.783 | F1-Score: 0.667
+	Test 5 | Max Feature split: 0.30 | Accuracy: 0.783 | F1-Score: 0.667
+	Test 6 | Max Feature split: 0.35 | Accuracy: 0.783 | F1-Score: 0.667
+	Test 7 | Max Feature split: 0.40 | Accuracy: 0.783 | F1-Score: 0.667
+	Test 8 | Max Feature split: 0.45 | Accuracy: 0.783 | F1-Score: 0.683
+	Test 9 | Max Feature split: 0.50 | Accuracy: 0.783 | F1-Score: 0.683
+	Test 10 | Max Feature split: 0.55 | Accuracy: 0.783 | F1-Score: 0.683
+	Test 11 | Max Feature split: 0.60 | Accuracy: 0.783 | F1-Score: 0.683
+	Test 12 | Max Feature split: 0.65 | Accuracy: 0.783 | F1-Score: 0.683
+	Test 13 | Max Feature split: 0.70 | Accuracy: 0.783 | F1-Score: 0.683
+	Test 14 | Max Feature split: 0.75 | Accuracy: 0.783 | F1-Score: 0.683
+	Test 15 | Max Feature split: 0.80 | Accuracy: 0.783 | F1-Score: 0.683
+	Test 16 | Max Feature split: 0.85 | Accuracy: 0.783 | F1-Score: 0.683
+	Test 17 | Max Feature split: 0.90 | Accuracy: 0.783 | F1-Score: 0.683
+	Test 18 | Max Feature split: 0.95 | Accuracy: 0.800 | F1-Score: 0.700
+
+	Average accuracy: 0.783
+	Average F1-Scores: 0.663
+	Best split: 0.20 with 0.718 F1-Score
+	Therefore best classifier found is: 180 estimators | 0.20 split
+              precision    recall  f1-score   support
+
+           0       0.88      0.85      0.86        41
+           1       0.70      0.74      0.72        19
+
+    accuracy                           0.82        60
+   macro avg       0.79      0.80      0.79        60
+weighted avg       0.82      0.82      0.82        60
+	Best F1-Score: 0.718
+
+Seed 4: 9584659	NUMBER OF TREES/ESTIMATORS TEST
+	Test 0 | Number of estimators: 20 | Accuracy: 0.833 | F1-Score: 0.750
+	Test 1 | Number of estimators: 40 | Accuracy: 0.833 | F1-Score: 0.750
+	Test 2 | Number of estimators: 60 | Accuracy: 0.850 | F1-Score: 0.780
+	Test 3 | Number of estimators: 80 | Accuracy: 0.833 | F1-Score: 0.750
+	Test 4 | Number of estimators: 100 | Accuracy: 0.817 | F1-Score: 0.718
+	Test 5 | Number of estimators: 120 | Accuracy: 0.800 | F1-Score: 0.700
+	Test 6 | Number of estimators: 140 | Accuracy: 0.817 | F1-Score: 0.732
+	Test 7 | Number of estimators: 160 | Accuracy: 0.833 | F1-Score: 0.750
+	Test 8 | Number of estimators: 180 | Accuracy: 0.833 | F1-Score: 0.750
+	Test 9 | Number of estimators: 200 | Accuracy: 0.833 | F1-Score: 0.750
+	Test 10 | Number of estimators: 220 | Accuracy: 0.850 | F1-Score: 0.780
+	Test 11 | Number of estimators: 240 | Accuracy: 0.850 | F1-Score: 0.780
+	Test 12 | Number of estimators: 260 | Accuracy: 0.833 | F1-Score: 0.750
+	Test 13 | Number of estimators: 280 | Accuracy: 0.850 | F1-Score: 0.780
+	Test 14 | Number of estimators: 300 | Accuracy: 0.850 | F1-Score: 0.780
+	Test 15 | Number of estimators: 320 | Accuracy: 0.850 | F1-Score: 0.780
+	Test 16 | Number of estimators: 340 | Accuracy: 0.850 | F1-Score: 0.780
+	Test 17 | Number of estimators: 360 | Accuracy: 0.850 | F1-Score: 0.780
+	Test 18 | Number of estimators: 380 | Accuracy: 0.850 | F1-Score: 0.780
+
+	Average accuracy: 0.838
+	Average F1-Scores: 0.759
+	Best estimators: 60 with 0.780 F1-Score
+
+	MAX FEATURES TEST
+	Test 0 | Max Feature split: 0.05 | Accuracy: 0.800 | F1-Score: 0.684
+	Test 1 | Max Feature split: 0.10 | Accuracy: 0.800 | F1-Score: 0.684
+	Test 2 | Max Feature split: 0.15 | Accuracy: 0.800 | F1-Score: 0.684
+	Test 3 | Max Feature split: 0.20 | Accuracy: 0.817 | F1-Score: 0.718
+	Test 4 | Max Feature split: 0.25 | Accuracy: 0.817 | F1-Score: 0.718
+	Test 5 | Max Feature split: 0.30 | Accuracy: 0.817 | F1-Score: 0.718
+	Test 6 | Max Feature split: 0.35 | Accuracy: 0.833 | F1-Score: 0.750
+	Test 7 | Max Feature split: 0.40 | Accuracy: 0.833 | F1-Score: 0.750
+	Test 8 | Max Feature split: 0.45 | Accuracy: 0.850 | F1-Score: 0.780
+	Test 9 | Max Feature split: 0.50 | Accuracy: 0.850 | F1-Score: 0.780
+	Test 10 | Max Feature split: 0.55 | Accuracy: 0.850 | F1-Score: 0.780
+	Test 11 | Max Feature split: 0.60 | Accuracy: 0.800 | F1-Score: 0.700
+	Test 12 | Max Feature split: 0.65 | Accuracy: 0.800 | F1-Score: 0.700
+	Test 13 | Max Feature split: 0.70 | Accuracy: 0.850 | F1-Score: 0.791
+	Test 14 | Max Feature split: 0.75 | Accuracy: 0.867 | F1-Score: 0.810
+	Test 15 | Max Feature split: 0.80 | Accuracy: 0.867 | F1-Score: 0.810
+	Test 16 | Max Feature split: 0.85 | Accuracy: 0.867 | F1-Score: 0.810
+	Test 17 | Max Feature split: 0.90 | Accuracy: 0.867 | F1-Score: 0.810
+	Test 18 | Max Feature split: 0.95 | Accuracy: 0.867 | F1-Score: 0.810
+
+	Average accuracy: 0.834
+	Average F1-Scores: 0.759
+	Best split: 0.75 with 0.810 F1-Score
+	Therefore best classifier found is: 60 estimators | 0.75 split
+              precision    recall  f1-score   support
+
+           0       0.81      1.00      0.90        35
+           1       1.00      0.68      0.81        25
+
+    accuracy                           0.87        60
+   macro avg       0.91      0.84      0.85        60
+weighted avg       0.89      0.87      0.86        60
+	Best F1-Score: 0.810
+
+Seed 5: 4523468	NUMBER OF TREES/ESTIMATORS TEST
+	Test 0 | Number of estimators: 20 | Accuracy: 0.867 | F1-Score: 0.733
+	Test 1 | Number of estimators: 40 | Accuracy: 0.867 | F1-Score: 0.733
+	Test 2 | Number of estimators: 60 | Accuracy: 0.883 | F1-Score: 0.774
+	Test 3 | Number of estimators: 80 | Accuracy: 0.883 | F1-Score: 0.774
+	Test 4 | Number of estimators: 100 | Accuracy: 0.883 | F1-Score: 0.774
+	Test 5 | Number of estimators: 120 | Accuracy: 0.883 | F1-Score: 0.774
+	Test 6 | Number of estimators: 140 | Accuracy: 0.867 | F1-Score: 0.733
+	Test 7 | Number of estimators: 160 | Accuracy: 0.850 | F1-Score: 0.690
+	Test 8 | Number of estimators: 180 | Accuracy: 0.867 | F1-Score: 0.733
+	Test 9 | Number of estimators: 200 | Accuracy: 0.867 | F1-Score: 0.733
+	Test 10 | Number of estimators: 220 | Accuracy: 0.867 | F1-Score: 0.733
+	Test 11 | Number of estimators: 240 | Accuracy: 0.867 | F1-Score: 0.733
+	Test 12 | Number of estimators: 260 | Accuracy: 0.867 | F1-Score: 0.733
+	Test 13 | Number of estimators: 280 | Accuracy: 0.867 | F1-Score: 0.733
+	Test 14 | Number of estimators: 300 | Accuracy: 0.867 | F1-Score: 0.733
+	Test 15 | Number of estimators: 320 | Accuracy: 0.867 | F1-Score: 0.733
+	Test 16 | Number of estimators: 340 | Accuracy: 0.867 | F1-Score: 0.733
+	Test 17 | Number of estimators: 360 | Accuracy: 0.867 | F1-Score: 0.733
+	Test 18 | Number of estimators: 380 | Accuracy: 0.867 | F1-Score: 0.733
+
+	Average accuracy: 0.869
+	Average F1-Scores: 0.740
+	Best estimators: 60 with 0.774 F1-Score
+
+	MAX FEATURES TEST
+	Test 0 | Max Feature split: 0.05 | Accuracy: 0.817 | F1-Score: 0.593
+	Test 1 | Max Feature split: 0.10 | Accuracy: 0.817 | F1-Score: 0.593
+	Test 2 | Max Feature split: 0.15 | Accuracy: 0.817 | F1-Score: 0.593
+	Test 3 | Max Feature split: 0.20 | Accuracy: 0.850 | F1-Score: 0.710
+	Test 4 | Max Feature split: 0.25 | Accuracy: 0.833 | F1-Score: 0.667
+	Test 5 | Max Feature split: 0.30 | Accuracy: 0.833 | F1-Score: 0.667
+	Test 6 | Max Feature split: 0.35 | Accuracy: 0.867 | F1-Score: 0.733
+	Test 7 | Max Feature split: 0.40 | Accuracy: 0.867 | F1-Score: 0.733
+	Test 8 | Max Feature split: 0.45 | Accuracy: 0.900 | F1-Score: 0.813
+	Test 9 | Max Feature split: 0.50 | Accuracy: 0.883 | F1-Score: 0.774
+	Test 10 | Max Feature split: 0.55 | Accuracy: 0.883 | F1-Score: 0.774
+	Test 11 | Max Feature split: 0.60 | Accuracy: 0.850 | F1-Score: 0.727
+	Test 12 | Max Feature split: 0.65 | Accuracy: 0.850 | F1-Score: 0.727
+	Test 13 | Max Feature split: 0.70 | Accuracy: 0.850 | F1-Score: 0.710
+	Test 14 | Max Feature split: 0.75 | Accuracy: 0.833 | F1-Score: 0.667
+	Test 15 | Max Feature split: 0.80 | Accuracy: 0.833 | F1-Score: 0.667
+	Test 16 | Max Feature split: 0.85 | Accuracy: 0.850 | F1-Score: 0.710
+	Test 17 | Max Feature split: 0.90 | Accuracy: 0.850 | F1-Score: 0.710
+	Test 18 | Max Feature split: 0.95 | Accuracy: 0.833 | F1-Score: 0.667
+
+	Average accuracy: 0.848
+	Average F1-Scores: 0.740
+	Best split: 0.45 with 0.813 F1-Score
+	Therefore best classifier found is: 60 estimators | 0.45 split
+              precision    recall  f1-score   support
+
+           0       0.87      1.00      0.93        41
+           1       1.00      0.68      0.81        19
+
+    accuracy                           0.90        60
+   macro avg       0.94      0.84      0.87        60
+weighted avg       0.91      0.90      0.89        60
+	Best F1-Score: 0.813
+
+Seed 6: 6791969	NUMBER OF TREES/ESTIMATORS TEST
+	Test 0 | Number of estimators: 20 | Accuracy: 0.867 | F1-Score: 0.810
+	Test 1 | Number of estimators: 40 | Accuracy: 0.867 | F1-Score: 0.818
+	Test 2 | Number of estimators: 60 | Accuracy: 0.850 | F1-Score: 0.791
+	Test 3 | Number of estimators: 80 | Accuracy: 0.883 | F1-Score: 0.837
+	Test 4 | Number of estimators: 100 | Accuracy: 0.867 | F1-Score: 0.818
+	Test 5 | Number of estimators: 120 | Accuracy: 0.867 | F1-Score: 0.818
+	Test 6 | Number of estimators: 140 | Accuracy: 0.867 | F1-Score: 0.818
+	Test 7 | Number of estimators: 160 | Accuracy: 0.867 | F1-Score: 0.818
+	Test 8 | Number of estimators: 180 | Accuracy: 0.867 | F1-Score: 0.818
+	Test 9 | Number of estimators: 200 | Accuracy: 0.867 | F1-Score: 0.818
+	Test 10 | Number of estimators: 220 | Accuracy: 0.867 | F1-Score: 0.818
+	Test 11 | Number of estimators: 240 | Accuracy: 0.867 | F1-Score: 0.818
+	Test 12 | Number of estimators: 260 | Accuracy: 0.867 | F1-Score: 0.818
+	Test 13 | Number of estimators: 280 | Accuracy: 0.867 | F1-Score: 0.818
+	Test 14 | Number of estimators: 300 | Accuracy: 0.867 | F1-Score: 0.818
+	Test 15 | Number of estimators: 320 | Accuracy: 0.867 | F1-Score: 0.818
+	Test 16 | Number of estimators: 340 | Accuracy: 0.867 | F1-Score: 0.818
+	Test 17 | Number of estimators: 360 | Accuracy: 0.867 | F1-Score: 0.818
+	Test 18 | Number of estimators: 380 | Accuracy: 0.867 | F1-Score: 0.818
+
+	Average accuracy: 0.867
+	Average F1-Scores: 0.817
+	Best estimators: 80 with 0.837 F1-Score
+
+	MAX FEATURES TEST
+	Test 0 | Max Feature split: 0.05 | Accuracy: 0.783 | F1-Score: 0.649
+	Test 1 | Max Feature split: 0.10 | Accuracy: 0.783 | F1-Score: 0.649
+	Test 2 | Max Feature split: 0.15 | Accuracy: 0.783 | F1-Score: 0.649
+	Test 3 | Max Feature split: 0.20 | Accuracy: 0.800 | F1-Score: 0.700
+	Test 4 | Max Feature split: 0.25 | Accuracy: 0.867 | F1-Score: 0.810
+	Test 5 | Max Feature split: 0.30 | Accuracy: 0.867 | F1-Score: 0.810
+	Test 6 | Max Feature split: 0.35 | Accuracy: 0.883 | F1-Score: 0.837
+	Test 7 | Max Feature split: 0.40 | Accuracy: 0.883 | F1-Score: 0.837
+	Test 8 | Max Feature split: 0.45 | Accuracy: 0.883 | F1-Score: 0.837
+	Test 9 | Max Feature split: 0.50 | Accuracy: 0.883 | F1-Score: 0.837
+	Test 10 | Max Feature split: 0.55 | Accuracy: 0.883 | F1-Score: 0.837
+	Test 11 | Max Feature split: 0.60 | Accuracy: 0.833 | F1-Score: 0.773
+	Test 12 | Max Feature split: 0.65 | Accuracy: 0.833 | F1-Score: 0.773
+	Test 13 | Max Feature split: 0.70 | Accuracy: 0.850 | F1-Score: 0.791
+	Test 14 | Max Feature split: 0.75 | Accuracy: 0.850 | F1-Score: 0.791
+	Test 15 | Max Feature split: 0.80 | Accuracy: 0.850 | F1-Score: 0.791
+	Test 16 | Max Feature split: 0.85 | Accuracy: 0.867 | F1-Score: 0.818
+	Test 17 | Max Feature split: 0.90 | Accuracy: 0.867 | F1-Score: 0.818
+	Test 18 | Max Feature split: 0.95 | Accuracy: 0.850 | F1-Score: 0.800
+
+	Average accuracy: 0.847
+	Average F1-Scores: 0.817
+	Best split: 0.35 with 0.837 F1-Score
+	Therefore best classifier found is: 80 estimators | 0.35 split
+              precision    recall  f1-score   support
+
+           0       0.85      0.97      0.91        36
+           1       0.95      0.75      0.84        24
+
+    accuracy                           0.88        60
+   macro avg       0.90      0.86      0.87        60
+weighted avg       0.89      0.88      0.88        60
+	Best F1-Score: 0.837
+
+Seed 7: 1431014	NUMBER OF TREES/ESTIMATORS TEST
+	Test 0 | Number of estimators: 20 | Accuracy: 0.800 | F1-Score: 0.538
+	Test 1 | Number of estimators: 40 | Accuracy: 0.783 | F1-Score: 0.519
+	Test 2 | Number of estimators: 60 | Accuracy: 0.817 | F1-Score: 0.593
+	Test 3 | Number of estimators: 80 | Accuracy: 0.817 | F1-Score: 0.593
+	Test 4 | Number of estimators: 100 | Accuracy: 0.817 | F1-Score: 0.593
+	Test 5 | Number of estimators: 120 | Accuracy: 0.817 | F1-Score: 0.593
+	Test 6 | Number of estimators: 140 | Accuracy: 0.800 | F1-Score: 0.538
+	Test 7 | Number of estimators: 160 | Accuracy: 0.800 | F1-Score: 0.538
+	Test 8 | Number of estimators: 180 | Accuracy: 0.800 | F1-Score: 0.538
+	Test 9 | Number of estimators: 200 | Accuracy: 0.800 | F1-Score: 0.538
+	Test 10 | Number of estimators: 220 | Accuracy: 0.817 | F1-Score: 0.593
+	Test 11 | Number of estimators: 240 | Accuracy: 0.817 | F1-Score: 0.593
+	Test 12 | Number of estimators: 260 | Accuracy: 0.817 | F1-Score: 0.593
+	Test 13 | Number of estimators: 280 | Accuracy: 0.817 | F1-Score: 0.593
+	Test 14 | Number of estimators: 300 | Accuracy: 0.833 | F1-Score: 0.615
+	Test 15 | Number of estimators: 320 | Accuracy: 0.833 | F1-Score: 0.615
+	Test 16 | Number of estimators: 340 | Accuracy: 0.833 | F1-Score: 0.615
+	Test 17 | Number of estimators: 360 | Accuracy: 0.833 | F1-Score: 0.615
+	Test 18 | Number of estimators: 380 | Accuracy: 0.833 | F1-Score: 0.615
+
+	Average accuracy: 0.815
+	Average F1-Scores: 0.580
+	Best estimators: 300 with 0.615 F1-Score
+
+	MAX FEATURES TEST
+	Test 0 | Max Feature split: 0.05 | Accuracy: 0.783 | F1-Score: 0.480
+	Test 1 | Max Feature split: 0.10 | Accuracy: 0.783 | F1-Score: 0.480
+	Test 2 | Max Feature split: 0.15 | Accuracy: 0.783 | F1-Score: 0.480
+	Test 3 | Max Feature split: 0.20 | Accuracy: 0.800 | F1-Score: 0.538
+	Test 4 | Max Feature split: 0.25 | Accuracy: 0.817 | F1-Score: 0.560
+	Test 5 | Max Feature split: 0.30 | Accuracy: 0.817 | F1-Score: 0.560
+	Test 6 | Max Feature split: 0.35 | Accuracy: 0.817 | F1-Score: 0.560
+	Test 7 | Max Feature split: 0.40 | Accuracy: 0.817 | F1-Score: 0.560
+	Test 8 | Max Feature split: 0.45 | Accuracy: 0.833 | F1-Score: 0.615
+	Test 9 | Max Feature split: 0.50 | Accuracy: 0.833 | F1-Score: 0.615
+	Test 10 | Max Feature split: 0.55 | Accuracy: 0.833 | F1-Score: 0.615
+	Test 11 | Max Feature split: 0.60 | Accuracy: 0.833 | F1-Score: 0.615
+	Test 12 | Max Feature split: 0.65 | Accuracy: 0.833 | F1-Score: 0.615
+	Test 13 | Max Feature split: 0.70 | Accuracy: 0.833 | F1-Score: 0.615
+	Test 14 | Max Feature split: 0.75 | Accuracy: 0.833 | F1-Score: 0.615
+	Test 15 | Max Feature split: 0.80 | Accuracy: 0.833 | F1-Score: 0.615
+	Test 16 | Max Feature split: 0.85 | Accuracy: 0.817 | F1-Score: 0.593
+	Test 17 | Max Feature split: 0.90 | Accuracy: 0.817 | F1-Score: 0.593
+	Test 18 | Max Feature split: 0.95 | Accuracy: 0.783 | F1-Score: 0.519
+
+	Average accuracy: 0.816
+	Average F1-Scores: 0.580
+	Best split: 0.45 with 0.615 F1-Score
+	Therefore best classifier found is: 300 estimators | 0.45 split
+              precision    recall  f1-score   support
+
+           0       0.88      0.91      0.89        46
+           1       0.67      0.57      0.62        14
+
+    accuracy                           0.83        60
+   macro avg       0.77      0.74      0.75        60
+weighted avg       0.83      0.83      0.83        60
+	Best F1-Score: 0.615
+
+Seed 8: 8956310	NUMBER OF TREES/ESTIMATORS TEST
+	Test 0 | Number of estimators: 20 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 1 | Number of estimators: 40 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 2 | Number of estimators: 60 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 3 | Number of estimators: 80 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 4 | Number of estimators: 100 | Accuracy: 0.900 | F1-Score: 0.824
+	Test 5 | Number of estimators: 120 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 6 | Number of estimators: 140 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 7 | Number of estimators: 160 | Accuracy: 0.900 | F1-Score: 0.824
+	Test 8 | Number of estimators: 180 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 9 | Number of estimators: 200 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 10 | Number of estimators: 220 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 11 | Number of estimators: 240 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 12 | Number of estimators: 260 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 13 | Number of estimators: 280 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 14 | Number of estimators: 300 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 15 | Number of estimators: 320 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 16 | Number of estimators: 340 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 17 | Number of estimators: 360 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 18 | Number of estimators: 380 | Accuracy: 0.917 | F1-Score: 0.857
+
+	Average accuracy: 0.915
+	Average F1-Scores: 0.854
+	Best estimators: 20 with 0.857 F1-Score
+
+	MAX FEATURES TEST
+	Test 0 | Max Feature split: 0.05 | Accuracy: 0.867 | F1-Score: 0.765
+	Test 1 | Max Feature split: 0.10 | Accuracy: 0.867 | F1-Score: 0.765
+	Test 2 | Max Feature split: 0.15 | Accuracy: 0.867 | F1-Score: 0.765
+	Test 3 | Max Feature split: 0.20 | Accuracy: 0.900 | F1-Score: 0.824
+	Test 4 | Max Feature split: 0.25 | Accuracy: 0.850 | F1-Score: 0.727
+	Test 5 | Max Feature split: 0.30 | Accuracy: 0.850 | F1-Score: 0.727
+	Test 6 | Max Feature split: 0.35 | Accuracy: 0.867 | F1-Score: 0.765
+	Test 7 | Max Feature split: 0.40 | Accuracy: 0.867 | F1-Score: 0.765
+	Test 8 | Max Feature split: 0.45 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 9 | Max Feature split: 0.50 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 10 | Max Feature split: 0.55 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 11 | Max Feature split: 0.60 | Accuracy: 0.900 | F1-Score: 0.824
+	Test 12 | Max Feature split: 0.65 | Accuracy: 0.900 | F1-Score: 0.824
+	Test 13 | Max Feature split: 0.70 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 14 | Max Feature split: 0.75 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 15 | Max Feature split: 0.80 | Accuracy: 0.917 | F1-Score: 0.857
+	Test 16 | Max Feature split: 0.85 | Accuracy: 0.883 | F1-Score: 0.800
+	Test 17 | Max Feature split: 0.90 | Accuracy: 0.883 | F1-Score: 0.800
+	Test 18 | Max Feature split: 0.95 | Accuracy: 0.900 | F1-Score: 0.824
+
+	Average accuracy: 0.889
+	Average F1-Scores: 0.854
+	Best split: 0.45 with 0.857 F1-Score
+	Therefore best classifier found is: 20 estimators | 0.45 split
+              precision    recall  f1-score   support
+
+           0       0.91      0.98      0.94        41
+           1       0.94      0.79      0.86        19
+
+    accuracy                           0.92        60
+   macro avg       0.92      0.88      0.90        60
+weighted avg       0.92      0.92      0.91        60
+	Best F1-Score: 0.857
+
+Seed 9: 2482693	NUMBER OF TREES/ESTIMATORS TEST
+	Test 0 | Number of estimators: 20 | Accuracy: 0.900 | F1-Score: 0.786
+	Test 1 | Number of estimators: 40 | Accuracy: 0.883 | F1-Score: 0.741
+	Test 2 | Number of estimators: 60 | Accuracy: 0.883 | F1-Score: 0.741
+	Test 3 | Number of estimators: 80 | Accuracy: 0.883 | F1-Score: 0.741
+	Test 4 | Number of estimators: 100 | Accuracy: 0.883 | F1-Score: 0.741
+	Test 5 | Number of estimators: 120 | Accuracy: 0.883 | F1-Score: 0.741
+	Test 6 | Number of estimators: 140 | Accuracy: 0.867 | F1-Score: 0.714
+	Test 7 | Number of estimators: 160 | Accuracy: 0.900 | F1-Score: 0.786
+	Test 8 | Number of estimators: 180 | Accuracy: 0.883 | F1-Score: 0.759
+	Test 9 | Number of estimators: 200 | Accuracy: 0.883 | F1-Score: 0.741
+	Test 10 | Number of estimators: 220 | Accuracy: 0.867 | F1-Score: 0.714
+	Test 11 | Number of estimators: 240 | Accuracy: 0.867 | F1-Score: 0.714
+	Test 12 | Number of estimators: 260 | Accuracy: 0.867 | F1-Score: 0.714
+	Test 13 | Number of estimators: 280 | Accuracy: 0.867 | F1-Score: 0.714
+	Test 14 | Number of estimators: 300 | Accuracy: 0.883 | F1-Score: 0.741
+	Test 15 | Number of estimators: 320 | Accuracy: 0.883 | F1-Score: 0.741
+	Test 16 | Number of estimators: 340 | Accuracy: 0.883 | F1-Score: 0.741
+	Test 17 | Number of estimators: 360 | Accuracy: 0.883 | F1-Score: 0.741
+	Test 18 | Number of estimators: 380 | Accuracy: 0.883 | F1-Score: 0.741
+
+	Average accuracy: 0.881
+	Average F1-Scores: 0.739
+	Best estimators: 20 with 0.786 F1-Score
+
+	MAX FEATURES TEST
+	Test 0 | Max Feature split: 0.05 | Accuracy: 0.883 | F1-Score: 0.720
+	Test 1 | Max Feature split: 0.10 | Accuracy: 0.883 | F1-Score: 0.720
+	Test 2 | Max Feature split: 0.15 | Accuracy: 0.883 | F1-Score: 0.720
+	Test 3 | Max Feature split: 0.20 | Accuracy: 0.883 | F1-Score: 0.720
+	Test 4 | Max Feature split: 0.25 | Accuracy: 0.883 | F1-Score: 0.741
+	Test 5 | Max Feature split: 0.30 | Accuracy: 0.883 | F1-Score: 0.741
+	Test 6 | Max Feature split: 0.35 | Accuracy: 0.883 | F1-Score: 0.741
+	Test 7 | Max Feature split: 0.40 | Accuracy: 0.883 | F1-Score: 0.741
+	Test 8 | Max Feature split: 0.45 | Accuracy: 0.867 | F1-Score: 0.714
+	Test 9 | Max Feature split: 0.50 | Accuracy: 0.900 | F1-Score: 0.786
+	Test 10 | Max Feature split: 0.55 | Accuracy: 0.900 | F1-Score: 0.786
+	Test 11 | Max Feature split: 0.60 | Accuracy: 0.883 | F1-Score: 0.759
+	Test 12 | Max Feature split: 0.65 | Accuracy: 0.883 | F1-Score: 0.759
+	Test 13 | Max Feature split: 0.70 | Accuracy: 0.883 | F1-Score: 0.741
+	Test 14 | Max Feature split: 0.75 | Accuracy: 0.900 | F1-Score: 0.786
+	Test 15 | Max Feature split: 0.80 | Accuracy: 0.900 | F1-Score: 0.786
+	Test 16 | Max Feature split: 0.85 | Accuracy: 0.850 | F1-Score: 0.690
+	Test 17 | Max Feature split: 0.90 | Accuracy: 0.850 | F1-Score: 0.690
+	Test 18 | Max Feature split: 0.95 | Accuracy: 0.867 | F1-Score: 0.714
+
+	Average accuracy: 0.882
+	Average F1-Scores: 0.739
+	Best split: 0.50 with 0.786 F1-Score
+	Therefore best classifier found is: 20 estimators | 0.50 split
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.93        44
+           1       0.92      0.69      0.79        16
+
+    accuracy                           0.90        60
+   macro avg       0.91      0.83      0.86        60
+weighted avg       0.90      0.90      0.90        60
+	Best F1-Score: 0.786
+
+
+Best overall random forest was with Random Seed [ 8956310 ] with 0.86 F1-Score and 0.92 accuracy using 20 estimators and a 0.45 Max Feature split
+         F1-Score  Accuracy  Estimators  Split
+560418   0.685714  0.816667       240.0   0.20
+8974667  0.774194  0.883333       120.0   0.50
+4641948  0.742857  0.850000        60.0   0.60
+695430   0.717949  0.816667       180.0   0.20
+9584659  0.809524  0.866667        60.0   0.75
+4523468  0.812500  0.900000        60.0   0.45
+6791969  0.837209  0.883333        80.0   0.35
+1431014  0.615385  0.833333       300.0   0.45
+8956310  0.857143  0.916667        20.0   0.45
+2482693  0.785714  0.900000        20.0   0.50
